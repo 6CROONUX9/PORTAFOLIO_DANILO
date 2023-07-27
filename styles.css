@@ -8,17 +8,28 @@ img{
     display: block;
 }
 .contenedor{
+    
     padding: 1rem;
     width: 100vw;
     background-color: #F28705;
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     
     
 }
+/* .contenedor__ul{
+    display: flex;
+    flex-wrap: wrap;
+} */ 
 .mostrar__carta{
     background-color: #F23030;
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 60%;
     gap: 1rem;
     border-radius: 1rem;
@@ -27,6 +38,7 @@ img{
     justify-content: center;
     align-items: center;
     height: 500px;
+    
     
 }
 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN - CROONUX</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <form id="formUser" class="formUser">
+            <h2>LOGIN - CROONUX</h2>
+            <div class="form__control">
+                <label for="userFullname">Full name</label>
+                <input type="text" placeholder="ej: croonux" id="userFullname" name="userFullname">
+            </div>
+
+            <div class="form__control">
+                <label for="userEmail">Email</label>
+                <input type="email" placeholder="ej: croonux@academlo.com" id="userEmail" name="userEmail">
+            </div>
+
+            <div class="form__control">
+                <label for="pass1User">password 1</label>
+                <input type="password" id="pass1User" name="pass1User">
+            </div class="form__control">
+
+            <div class="form__control">
+                <label for="pass2User">password 2</label>
+                <input type="password" id="pass2User" name="pass2User">
+            </div>
+
+            <input class="btn" type="submit" value="Send">
+        </form>
+        <div class="img_principal">
+            <img src="./croonux.webp" alt="">
+        </div>
+        <div class="users"></div>
+    </div>
+
+    <div class="contentModalError">
+        <div class="modalError">
+            <div class="icon__close">x</div>
+            <h2 id="modalText"></h2>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 1rem;
+    background-color: #9e9e9e;
+}
+.container__principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__btn{
+    padding: 1rem;
+}
+
+.container__cartas {
+	max-width: 1024px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 1rem;
+    padding-top: 1rem;
+}
+
+.user {
+	padding: 1rem;
+	background-color: lightblue;
+	border-radius: 1rem;
+	max-height: 100px;
+	overflow-y: scroll;
+}
